@@ -7,7 +7,7 @@ var is_moving = false
 func _ready():
 	randomize()
 	
-	speed = 1200
+	speed = 750
 	direction.x = [-1, 1][randi() % 2]
 	direction.y = [-0.8, 0.8][randi() % 2]
 	is_moving = true
